@@ -2,6 +2,8 @@
 # Project Specific
 
 generated
+.metals/
+.bsp/
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,scala
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,scala
