@@ -1,0 +1,18 @@
+
+[options]
+mode bmc
+#mode prove #k-induction
+depth 20
+#expect fail
+
+[engines]
+smtbmc boolector
+#smtbmc z3
+#smtbmc yices
+
+[script]
+read -formal ALU.sv
+prep -top ALU
+
+[files]
+ALU.sv
