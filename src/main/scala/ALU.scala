@@ -3,7 +3,7 @@
 *
 *	Author: 			Hanssel Norato-Sep 17, 2019.
 *
-*	Modified by: 	Hanssel Norato-May 20, 2020.
+*	Modified by: 	Camilo Rojas-Aug 25, 2021.
 *
 * Abstract:	 		This module implement all the Arithmetic and
 *								logical operations requiered by the spec
@@ -140,7 +140,6 @@ io.ans := 0.U
 		}.elsewhen((io.in1 <= "hFFFFFFFF".asUInt ) && (io.in2 <= "hFFFFFFFF".asUInt)){
 			verification.assert(io.ovf === 0.U)
 		}
-
 	}
 }
 

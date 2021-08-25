@@ -2,6 +2,7 @@
 # Project Specific
 
 generated
+ALU_formal
 .metals/
 .bsp/
 
