@@ -124,7 +124,7 @@ io.ans := 0.U
 
 		is(code.nop1){ io.out := io.in1 }
 
-		is(code.nop2){ io.out := io.in2 }
+		is(code.nop2){ io.out := io.in1 }
 
 	}
 

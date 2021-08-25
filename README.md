@@ -18,4 +18,12 @@ Please Install the following tools from this [link](https://symbiyosys.readthedo
 ## SystemVerilog Generation
 To generate a SystemVerilog file from your Chisel project run the following command
 
-- ./do-gen.sh
+```sh
+./do-gen.sh
+```
+
+## Perform formal analysis
+
+```sh
+sby -f ALU_formal.sby
+```
