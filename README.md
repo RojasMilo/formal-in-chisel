@@ -5,8 +5,6 @@ You've done the [Chisel Tutorial](https://github.com/ucb-bar/chisel-tutorial), a
 ## Apply formal verification to your own Chisel3 project
 
 ![Alt text](./HDL_formal_verification.svg)
-<img src="./HDL_formal_verification.svg">
-
 
 ### Prerequisites
 Please Install the following tools from this [link](https://symbiyosys.readthedocs.io/en/latest/install.html)
